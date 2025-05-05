@@ -182,7 +182,7 @@ button {
 }
 .hero-title {
   font-size: 56px;
-  width: 496px;
+  max-width: 496px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -192,7 +192,7 @@ button {
   margin-bottom: 48px;
 }
 .order-service {
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   display: block;
   font-family: inherit;
@@ -204,6 +204,8 @@ button {
   background-color: #4d5ae5;
   margin-left: auto;
   margin-right: auto;
+  border: none;
+  border-radius: 4px;
 }
 .order-service:hover,
 .order-service:focus {
@@ -266,7 +268,7 @@ button {
 }
 
 .card {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-title-item {
